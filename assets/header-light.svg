@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="t">
+  <title id="t">Michal Marcinko. I build fast Rust tools, Solana programs, edge AI on NVIDIA Jetson and full-stack TypeScript apps.</title>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1f2328" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="fade" cx="35%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="gridmask"><rect width="1200" height="340" fill="url(#fade)"/></mask>
+    <radialGradient id="glowA"><stop offset="0" stop-color="#d9480f" stop-opacity="0.14"/><stop offset="1" stop-color="#d9480f" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB"><stop offset="0" stop-color="#0f766e" stop-opacity="0.14"/><stop offset="1" stop-color="#0f766e" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ember" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox" spreadMethod="reflect">
+      <stop offset="0" stop-color="#d9480f"/><stop offset="0.5" stop-color="#e67700"/><stop offset="1" stop-color="#d9480f"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="2 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="340" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: "JetBrains Mono", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .fg { fill: #1f2328; } .muted { fill: #59636e; } .e1 { fill: #d9480f; } .teal { fill: #0f766e; }
+    .l { white-space: pre; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .glow { animation: drift 14s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+    @keyframes drift { to { transform: translate(40px, 18px) scale(1.12); } }
+    .p { opacity: 0; animation: rot 12s infinite both; }
+    .p0 { opacity: 1; }
+    .p1 { animation-delay: 3s; } .p2 { animation-delay: 6s; } .p3 { animation-delay: 9s; }
+    @keyframes rot {
+      0% { opacity: 0; transform: translateY(10px); }
+      3%, 22% { opacity: 1; transform: translateY(0); }
+      25%, 100% { opacity: 0; transform: translateY(-10px); }
+    }
+    .l0 { animation: l0 8s infinite; }
+    @keyframes l0 { 0%, 6% { opacity: 0; } 8%, 88% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    .l1 { animation: l1 8s infinite; }
+    @keyframes l1 { 0%, 18% { opacity: 0; } 20%, 88% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    .l2 { animation: l2 8s infinite; }
+    @keyframes l2 { 0%, 30% { opacity: 0; } 32%, 88% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    .l3 { animation: l3 8s infinite; }
+    @keyframes l3 { 0%, 42% { opacity: 0; } 44%, 88% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .cursor, .glow, .p, .l { animation: none !important; }
+    }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="#ffffff"/>
+    <rect width="1200" height="340" fill="url(#grid)" mask="url(#gridmask)"/>
+    <ellipse class="glow" cx="260" cy="110" rx="420" ry="230" fill="url(#glowA)"/>
+    <ellipse class="glow" cx="1000" cy="300" rx="380" ry="200" fill="url(#glowB)" style="animation-duration:18s"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="18" fill="none" stroke="#d0d7de"/>
+
+  <text x="64" y="92" class="mono" font-size="18"><tspan class="teal">❯</tspan><tspan class="muted"> whoami</tspan><tspan class="e1 cursor"> ▍</tspan></text>
+  <text x="62" y="172" class="sans" font-size="68" font-weight="800" letter-spacing="-2" fill="url(#ember)">Michal Marcinko</text>
+  <g class="sans" font-size="26" font-weight="500">
+    <text x="64" y="226" class="p p0"><tspan class="fg">I build </tspan><tspan class="e1">fast Rust tools</tspan><tspan class="fg">.</tspan></text>
+    <text x="64" y="226" class="p p1"><tspan class="fg">I build </tspan><tspan class="e1">Solana programs</tspan><tspan class="fg">.</tspan></text>
+    <text x="64" y="226" class="p p2"><tspan class="fg">I build </tspan><tspan class="e1">edge AI on NVIDIA Jetson</tspan><tspan class="fg">.</tspan></text>
+    <text x="64" y="226" class="p p3"><tspan class="fg">I build </tspan><tspan class="e1">full-stack TypeScript apps</tspan><tspan class="fg">.</tspan></text>
+  </g>
+  <text x="64" y="282" class="mono muted" font-size="15" letter-spacing="0.5">rust · typescript · python · c# · solana · cuda</text>
+
+  <g transform="translate(784 70)">
+    <rect width="352" height="200" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+    <circle cx="22" cy="22" r="6" fill="#ff5f57"/><circle cx="42" cy="22" r="6" fill="#febc2e"/><circle cx="62" cy="22" r="6" fill="#28c840"/>
+    <text x="176" y="27" text-anchor="middle" class="mono muted" font-size="13">fastlaunch</text>
+    <g class="mono" font-size="16" xml:space="preserve">
+      <text x="22" y="70" class="l l0"><tspan class="teal">$</tspan><tspan class="fg"> fastlaunch</tspan></text>
+      <text x="22" y="102" class="l l1"><tspan class="muted">  scanning steam … </tspan><tspan class="teal">ok</tspan></text>
+      <text x="22" y="134" class="l l2"><tspan class="muted">  scanning epic  … </tspan><tspan class="teal">ok</tspan></text>
+      <text x="22" y="166" class="l l3"><tspan class="muted">  </tspan><tspan class="fg">ready in </tspan><tspan class="e1" font-weight="700">0.17s</tspan></text>
+    </g>
+  </g>
+</svg>
