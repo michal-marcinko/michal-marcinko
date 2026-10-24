@@ -65,6 +65,49 @@ impl Michal {
   </tr>
 </table>
 
+### 🔒 Private work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛰️ Edge 3D reconstruction</h3>
+      A photogrammetry pipeline that turns captured images into 3D models, running on embedded GPU hardware with a web front end.
+      <br><br>
+      <img src="https://img.shields.io/badge/Python-ff6b35?style=flat-square&logo=python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/edge_GPU-30363d?style=flat-square&logo=nvidia&logoColor=white" alt="Edge GPU">
+      <img src="https://img.shields.io/badge/closed_source-30363d?style=flat-square" alt="Closed source">
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔬 Applied ML models</h3>
+      Classification models trained on sensor data for an industrial product, from dataset prep through training and evaluation.
+      <br><br>
+      <img src="https://img.shields.io/badge/Python-ff6b35?style=flat-square&logo=python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/machine_learning-30363d?style=flat-square" alt="Machine learning">
+      <img src="https://img.shields.io/badge/closed_source-30363d?style=flat-square" alt="Closed source">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏗️ Digital twin platform</h3>
+      A team-built digital twin of a large infrastructure site: 3D geospatial visualisation, live data back end and cloud deployment.
+      <br><br>
+      <img src="https://img.shields.io/badge/TypeScript-ff6b35?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+      <img src="https://img.shields.io/badge/Python-30363d?style=flat-square&logo=python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/AWS-30363d?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS">
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤖 Client builds + AI automation</h3>
+      Full-stack sites for clients, plus an AI-driven lead generation and outreach engine that runs behind them.
+      <br><br>
+      <img src="https://img.shields.io/badge/TypeScript-ff6b35?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+      <img src="https://img.shields.io/badge/Python-30363d?style=flat-square&logo=python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/closed_source-30363d?style=flat-square" alt="Closed source">
+    </td>
+  </tr>
+</table>
+
+<p align="right"><sub>Code and clients stay private. Happy to walk through any of these on a call.</sub></p>
+
 ### 📈 Activity
 
 <picture>
